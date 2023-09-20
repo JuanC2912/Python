@@ -1,6 +1,7 @@
 from operaciones import *
 
-a = 2 
-b = 3
+a = float(input("Ingrese un numero: "))
+
+b = float(input("Ingrese otro numero: "))
 
 print(suma(a,b))
